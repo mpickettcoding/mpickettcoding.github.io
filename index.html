@@ -45,44 +45,44 @@
 						</div>
 					</div>
 					<img
-						class="image"
+						class="self-image"
 						src="https://lh3.googleusercontent.com/dSQVmCWkfwabivjA8fr4F6-UTf2W5HegjwzNKUZwGf8tjK0O8w-tXIWmxXamRotHS16fbTPQS0jWMABh-_L1TlYKtAmQTr-oi1qF_k-BqojntajPk8vMV7Jc1c3zPQZpCnt1pG3K5tY"
 						alt="close-up shot of my face"
 					/>
 				</div>
 			</section>
 			<section id="About" class="about">
-				<h1><center>About Me</center></h1>
+				<h1>About Me</h1>
 				<p>
 					Hi! My name is Matthew. I'm a senior at Portland State University
 					majoring in Computer Science. I have experience with C, C++, Java, and
 					Python but I'm most familiar with C and C++. My interests include web
-					development, artificial intelligence, and
-					computer networking. In my free time, I enjoy traveling and exploring
-					new places.
+					development, artificial intelligence, and computer networking. In my
+					free time, I enjoy traveling and exploring new places.
 				</p>
 			</section>
 			<section id="Experience" class="experience">
-				<h1><center>Experience</center></h1>
-				<p>
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi
-					incidunt quae debitis eius iste quia at in, alias culpa tempora
-					dolores. Sed sequi impedit nam deserunt cumque nisi molestiae? Quasi.
-					Lorem, ipsum dolor. Lorem ipsum dolor sit amet consectetur adipisicing
-					elit. Laborum aliquid repudiandae sapiente laboriosam minus asperiores
-					reiciendis aliquam praesentium neque eius optio, vitae, exercitationem
-					suscipit eum? Sed molestiae debitis sequi odit. Lorem ipsum dolor sit
-					amet consectetur adipisicing elit. Provident, optio exercitationem
-					fuga adipisci soluta nam itaque, sit eos consequuntur voluptatum sunt
-					quo alias dolorum aliquid est reprehenderit, neque cum. Iste! Lorem
-					ipsum dolor sit amet consectetur, adipisicing elit. Aperiam sunt
-					nesciunt veniam voluptatum fuga, doloremque, numquam ut eos rem
-					temporibus sed? Facere ea accusantium dicta praesentium deserunt!
-					Blanditiis, odio explicabo.
-				</p>
+				<h1>Experience</h1>
+				<div class="experience-info">
+					<small class="psu-dates"> Sept 2018 - Present </small>
+					<p class="h4 fw-bold">Portland State University</p>
+					<img
+						class="psu-logo"
+						src="https://lh3.googleusercontent.com/BohfxxuVmY42hAaWmNrit2kjbMakJRBzJWg1j6vpQfUWvs-Rc-RHNeq2zWRyk9wfMaxSRTQCesnDJRrpCwPubCXp3AvdWyqt3-8L-rF5lqwEB1EydBYjlPpyW6bp9IUzpnsF9jl-ANk=w2400"
+						width="150px"
+						height="150px"
+						alt="portland state university logo"
+					/>
+					<div class="education">
+						<span class="span-education">
+							<h4 class="major">Major: Computer Science</h4>
+							<p class="gpa">3.5 GPA</p>
+						</span>
+					</div>
+				</div>
 			</section>
 			<section id="Projects" class="projects">
-				<h1><center>Projects</center></h1>
+				<h1>Projects</h1>
 				<p>
 					Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi
 					incidunt quae debitis eius iste quia at in, alias culpa tempora
@@ -101,23 +101,52 @@
 				</p>
 			</section>
 			<section id="Contact" class="contact">
-				<h1><center>Contact</center></h1>
-				<p>
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi
-					incidunt quae debitis eius iste quia at in, alias culpa tempora
-					dolores. Sed sequi impedit nam deserunt cumque nisi molestiae? Quasi.
-					Lorem, ipsum dolor. Lorem ipsum dolor sit amet consectetur adipisicing
-					elit. Laborum aliquid repudiandae sapiente laboriosam minus asperiores
-					reiciendis aliquam praesentium neque eius optio, vitae, exercitationem
-					suscipit eum? Sed molestiae debitis sequi odit. Lorem ipsum dolor sit
-					amet consectetur adipisicing elit. Provident, optio exercitationem
-					fuga adipisci soluta nam itaque, sit eos consequuntur voluptatum sunt
-					quo alias dolorum aliquid est reprehenderit, neque cum. Iste! Lorem
-					ipsum dolor sit amet consectetur, adipisicing elit. Aperiam sunt
-					nesciunt veniam voluptatum fuga, doloremque, numquam ut eos rem
-					temporibus sed? Facere ea accusantium dicta praesentium deserunt!
-					Blanditiis, odio explicabo.
-				</p>
+				<h1><center>Contact Me</center></h1>
+				<form class="contact-form">
+					<div class="row mb-3">
+						<div class="col-md-4">
+							<label for="name">Name:</label>
+						</div>
+						<div class="col-md-8">
+							<input type="text" name="name"class="form-control" placeholder="Enter your name" id="name" />
+						</div>
+					</div>
+					<div class="row mb-3">
+						<div class="col-md-4">
+							<label for="email">Email:</label>
+						</div>
+						<div class="col-md-8">
+							<input
+								type="email"
+								name="email"
+								class="form-control"
+								placeholder ="Enter your email address"
+								id="email"
+							/>
+						</div>
+					</div>
+					<div class="row mb-3">
+						<div class="col-md-4">
+							<label for="message">Message:</label>
+						</div>
+						<div class="col-md-8">
+							<textarea
+								class="form-control"
+								name="message"
+								placeholder="Your message goes here"
+								id="message"
+								rows="4"
+							></textarea>
+						</div>
+					</div>
+					<div class=button-submit>
+						<input
+							type="submit"
+							class="btn btn-primary btn-md mb-3"
+							value="Submit"
+						/>
+					</div>
+				</form>
 			</section>
 		</section>
 	</body>

@@ -1,7 +1,10 @@
 body {
-	margin: 0;
+	background-color: lightcyan !important;
 }
 
+img {
+    max-width: 100%;
+}
 .nav-list {
 	position: fixed;
 	top: 0px;
@@ -51,14 +54,14 @@ body {
 		text-align: center;
 		margin-bottom: 50px;
 	}
-	.container-intro .image{
+	.container-intro .self-image{
 		margin: auto;
 	}
 	.container-intro .intro1 {
 		font-size: 20px;
 	}
 	.container-intro .intro1 .intro2 {
-		font-size: 40px;
+		font-size: 30px;
 	}
 
 	.container-intro .intro1 .intro2 .btn-primary {
@@ -79,14 +82,14 @@ body {
 		margin-bottom: 50px;
 		text-align: center;
 	}
-	.container-intro .image{
+	.container-intro .self-image{
 		margin: auto;
 	}
 	.container-intro .intro1 {
-		font-size: 30px;
+		font-size: 25px;
 	}
 	.container-intro .intro1 .intro2 {
-		font-size: 60px;
+		font-size: 50px;
 	}
 
 	.container-intro .intro1 .intro2 .btn-primary {
@@ -111,17 +114,13 @@ body {
 	}
 }
 
-.image {
+.self-image {
 	border-radius: 50%;
 	display: block;
   	margin-top: 2em;
 	margin-left: auto; 
     margin-right: 5em;
-	border: 10px solid green;
-}
-
-img {
-    max-width: 100%;
+	border: 5px solid green;
 }
 
 .container-intro {
@@ -129,10 +128,16 @@ img {
     align-items: center;
     justify-content: center;
 }
+
 .btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
 	margin-bottom: 35px;
     background-color: green !important;
 	border-color: green !important;
+}
+
+.btn-primary:focus, .btn-primary:active {
+  outline: none !important;
+  box-shadow: none !important;
 }
 
 .btn-primary:hover {
@@ -146,17 +151,59 @@ img {
 	margin: auto;
 	text-align: center;
 	font-size: x-large;
-	scroll-margin-top: 75px;
+	scroll-margin-top: 175px;
 }
 
 .experience {
-	scroll-margin-top: 75px;
+	scroll-margin-top: 175px;
+	width: 60vw;
+	margin: auto;
+	text-align: center;
+	font-size: x-large;
+}
+
+.experience-info {
+	border: 5px solid green;
+    border-radius: 20px;
+	width: 100%;
+}
+
+.psu-logo {
+	mix-blend-mode: multiply;
+}
+
+
+.span-education {
+	line-height: 10px;
+}
+
+.gpa {
+	font-size: large;
 }
 
 .projects {
-	scroll-margin-top: 75px;
+	scroll-margin-top: 175px;
 }
 
 .contact {
-	scroll-margin-top: 75px;
+	scroll-margin-top: 175px;
+	width: 60vw;
+	margin: auto;
+}
+
+.contact-form {
+    display: grid;
+	width: 100%;
+	font-size: large;
+}
+
+
+.form-control:focus, .form-control:active {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+
+.button-submit {
+	margin: auto;
 }
