@@ -29,6 +29,17 @@ img {
     max-width: 100%;
 }
 
+/* Navigation Button */
+.scroll_top {
+	position: fixed;
+	bottom: 0px;
+	right: 20px;
+	border-radius: 50% !important;
+}
+/* End Navigation Button */
+
+
+
 /* Navigation Bar */
 .nav-list {
 	position: fixed;
