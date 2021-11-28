@@ -3,4 +3,4 @@ This is my personal website. It was created for the final project for my Intro t
 
 This website was created using HTML, CSS, Javascript, and Bootstrap.
 
-This site is deployed through GitHub Pages. If you would like to visit it, go to (mpickettcoding.github.io).
+This site is deployed through GitHub Pages. If you would like to visit it, click [here] (https://mpickettcoding.github.io/).
