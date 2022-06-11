@@ -1,5 +1,5 @@
 # mpickett.coding.io
-This is my personal website. It was created for the final project for my Intro to Web Development (CS 410) class. It contains some of my previous work and shows what I can do as a web developer.
+This is my personal website. It was created as the final project for CS410: Intro to Web Development at Portland State University. It contains some of my previous work and shows what I can do as a web developer. I will continue updating this as I learn more and develop new projects.
 
 This website was created using HTML, CSS, Javascript, and Bootstrap.
 
